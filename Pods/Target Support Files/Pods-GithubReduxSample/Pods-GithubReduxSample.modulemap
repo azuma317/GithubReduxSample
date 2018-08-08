@@ -1,0 +1,6 @@
+framework module Pods_GithubReduxSample {
+  umbrella header "Pods-GithubReduxSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
