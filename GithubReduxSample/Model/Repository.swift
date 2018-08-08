@@ -16,14 +16,15 @@ struct Repository<T: Codable>: Codable {
     let starCount: Int
     let language: String
     let owner: T
-    
+
     private enum CodingKeys: String, CodingKey {
         case name
         case id
         case html = "html_url"
         case description
-        case star = "stargazers_count"
+        case starCount = "stargazers_count"
         case language
         case owner
     }
 }
+
