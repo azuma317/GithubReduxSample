@@ -18,6 +18,7 @@
 		75260649211B3D0F00712F40 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75260648211B3D0F00712F40 /* Repository.swift */; };
 		7526064D211B3FDE00712F40 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526064C211B3FDE00712F40 /* APIClient.swift */; };
 		7526064F211B426400712F40 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526064E211B426400712F40 /* Detail.swift */; };
+		758D48FE211C90C4008A599B /* MainStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D48FD211C90C4008A599B /* MainStateAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		75260648211B3D0F00712F40 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		7526064C211B3FDE00712F40 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		7526064E211B426400712F40 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		758D48FD211C90C4008A599B /* MainStateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStateAction.swift; sourceTree = "<group>"; };
 		7DE7EC9108B073390F6C41A6 /* Pods-GithubReduxSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubReduxSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubReduxSample/Pods-GithubReduxSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 			children = (
 				7526064B211B3FD000712F40 /* API */,
 				7526064A211B3FA500712F40 /* Model */,
+				758D48FC211C90AD008A599B /* Actions */,
 				75260630211B380B00712F40 /* AppDelegate.swift */,
 				75260632211B380B00712F40 /* ViewController.swift */,
 				75260634211B380B00712F40 /* Main.storyboard */,
@@ -100,6 +103,14 @@
 				7526064C211B3FDE00712F40 /* APIClient.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		758D48FC211C90AD008A599B /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				758D48FD211C90C4008A599B /* MainStateAction.swift */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 		9DAD2470AB77A5DDB481C782 /* Frameworks */ = {
@@ -255,6 +266,7 @@
 				7526064F211B426400712F40 /* Detail.swift in Sources */,
 				75260643211B3A8200712F40 /* Items.swift in Sources */,
 				75260649211B3D0F00712F40 /* Repository.swift in Sources */,
+				758D48FE211C90C4008A599B /* MainStateAction.swift in Sources */,
 				75260631211B380B00712F40 /* AppDelegate.swift in Sources */,
 				75260647211B3C7D00712F40 /* Owner.swift in Sources */,
 				7526064D211B3FDE00712F40 /* APIClient.swift in Sources */,
