@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import ReSwift
+
+enum SearchState {
+    case canceled
+    case ready
+    case searching(String)
+}
+
+enum RepositoryDetailState {
+    case willHide(Repository<Owner>)
+    case hide
+    case show(Repository<Owner>)
+}
+
+struct MainState: StateType {
+    
+}

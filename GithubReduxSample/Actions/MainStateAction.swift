@@ -12,6 +12,7 @@ import ReSwift
 enum MainStateAction: Action {
     case fetchNextRepositories(totalPages: Int, repositories: [Repository<Owner>])
     case showRepositoryDetail(Repository<Owner>)
+    case willHideRepositoryDetail(Repository<Owner>)
     case hideRepositoryDetail
     case readySearch
     case search(String)
